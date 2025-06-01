@@ -1,0 +1,36 @@
+# 🧠 Binary Image Classification – Cats vs Dogs
+
+This project is a basic binary classifier built from scratch using **NumPy**. It distinguishes between images of cats and dogs using **logistic regression** without relying on any machine learning libraries like TensorFlow or PyTorch.
+
+## 🧪 Dataset
+- Source: [Kaggle Dogs vs. Cats Dataset](https://www.kaggle.com/datasets)
+- Preprocessed to 64x64 pixel RGB images
+- Training and test folders are organized into `Cat/` and `Dog/` subfolders
+
+## 🛠️ What’s Inside
+- Manual image loading and normalization using Pillow and NumPy
+- Binary classification using sigmoid activation and cross-entropy loss
+- Vectorized implementation of forward/backward propagation
+- Custom training loop with hyperparameter tuning
+- Accuracy metrics on both training and test sets
+- Option to predict on custom user-provided image
+
+## 🎯 Highlights
+- 100% NumPy-based — no scikit-learn!
+- Educational: step-by-step build of a logistic regression model
+- Visualization of cost function across iterations
+- Easy to plug in your own image for prediction
+
+## 🧠 Learnings
+This project helped me understand:
+- Image preprocessing basics
+- How logistic regression works under the hood
+- Implementing gradient descent manually
+- Building deep learning workflows from scratch
+
+## 📁 File Structure
+├── Binary_Classification_Model.ipynb # The full working notebook
+├── requirements.txt # Python dependencies
+├── README.md # GitHub readme
+├── info.txt # This file for project pages
+└── dataset/ # Training/test image folders (ignored from git)
